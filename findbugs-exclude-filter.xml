@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- 
+	This file excludes some checking by bug patterns or Java packages.
+
+	FindBugs Filter Files:		http://findbugs.sourceforge.net/manual/filter.html
+
+	SonarQube can use FindBugs exclude xml file at:
+   	  Settings / Global Settings / Java / Excludes Filters
+   	    ..\{directory containing this xml}\findbugs-exclude-filter.xml
+    The "..\" means to use relative folder.
+ -->
+<FindBugsFilter>
+  <Match>
+    <Package name="~com\.orgname.*\.package\..*" />
+  </Match>
+ </FindBugsFilter>
