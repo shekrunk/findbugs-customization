@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- 
+	This file includes checking of group 1, 2 and 3.
+
+	FindBugs Filter Files:		http://findbugs.sourceforge.net/manual/filter.html
+
+	In below comments, the format is: "Category" / "Bug Kind"
+	For example, "Correctness" is category and "Null pointer dereference" is bug kind.
+	One category has multiple bug kinds.
+	One bug kind has one or multiple bug patterns.
+	For description of bug pattern, please check following web site:
+	http://findbugs.sourceforge.net/bugDescriptions.html
+
+	This file is only intended to be used in Eclipse IDE.
+ -->
+<FindBugsFilter>
+  <Match>
+    <Bug pattern="NP_ALWAYS_NULL"/>
+  </Match>
+</FindBugsFilter>
